@@ -4,6 +4,9 @@
     padding: 0px;
     font-family: 'Lexend', sans-serif;
 }
+body{
+    position: absolute;
+}
 html{
     box-sizing: border-box;
     margin: 0px;

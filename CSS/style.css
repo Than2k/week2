@@ -62,7 +62,7 @@ header .header1 .search{
 }
 header .header1 .search input{
     width: 380px;
-    height: 36px;
+    height: 38px;
     padding: 0px;
     border: 1px solid;
 }
@@ -73,11 +73,13 @@ header .header1 .search button {
     color: white;
     position: absolute;
     right: 0px;
+    cursor: pointer;
 }
 header .header1 .account {
     display: flex;
     font-size: 10px;
     margin-left: 80px;
+   
 
 }
 .bottom{
@@ -88,6 +90,7 @@ header .header1 .wishlist{
     display: flex;
     margin-left: 30px;
     font-size: 14px;
+   
 }
 header .header1 .cart{
     display: flex;
@@ -95,18 +98,22 @@ header .header1 .cart{
     font-size: 14px;
 }
 #cart1{
+    cursor: pointer;
     margin-top: 50px;
     margin-left: 18px;
 }
-#cart{
+#icon-cart1{
+    cursor: pointer;
     margin-top: 51px;
     font-size: 18px;
 }
 #wishlist{
+    cursor: pointer;
     margin-top: 51px;
     margin-left: 18px;
 }
 #heart{
+    cursor: pointer;
     margin-top: 51px;
     font-size: 16px;
 }
@@ -114,11 +121,14 @@ header .header1 .cart{
     margin-top: 51px;
     margin-right: 16px;
     font-size: 16px;
+    cursor: pointer;
 }
 #sign-in-up{
     margin-top: 40px;
+    cursor: pointer;
 }
 #ac{
+    cursor: pointer;
     font-size: 14px;
 }
 #men{
@@ -134,6 +144,7 @@ header .header1 .cart{
     
 }
 #down{
+    cursor: pointer;
     font-size: 16px;
     margin-top: 2px;
     margin-left: 2px;
@@ -144,7 +155,6 @@ header .header2{
     display: flex;
     flex-direction: column;
     justify-content: center;
-   
     width: 1440px;
     height: 50px;
     align-items: center;
@@ -249,8 +259,8 @@ section .banner .banner1 .rectangle hr{
     margin-top:10px ;
     margin-left: 5px;
 }
-#hr1{
-    background-color: white;
+.rectangle #hr1{
+    border: 1px solid white;
 }
 #watch-video{
     margin-left: 10px;
@@ -279,4 +289,91 @@ section .banner .banner2 .img7{
     margin-top:10px;
     margin-right: 8px;
 }
+
+/* fashion-trenning*/
+.fashion-trenning{
+    position: relative;
+    width: 1440px;
+    height: 800px;
+    background-color: rgb(245,245, 245);
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+.fashion-trenning .fashion{
+    margin-top: 120px;
+    margin-left: 130px;
+    display: flex;
+}
+.fashion-trenning .fashion p{
+    font-size: 40px;
+    font-weight:900;
+    margin-right: 16px;
+}
+#hr-fashion{
+    margin-top: 35px;
+    width: 60px;
+    height: 0px;
+    border: 1px solid #1a1a1a;
+    
+}
+.fashion-trenning .img-fashion{
+    position: absolute;
+    width: 380px;
+    height: 504px;
+    background-color: rgb(233, 206, 233);
+    margin-left: 130px;
+    margin-top: 270px;
+}
+.fashion-trenning .img-mu{
+    position: absolute;
+    width:200px ;
+    height: 251.47px;background-color: #c5e5e9;
+    top: 270px;
+    right: 130px;
+}
+.fashion-trenning .img-day{
+    width: 225.33px;
+    height: 295px;
+    background-color: #c7d1eb;
+    position: absolute;
+    top: 497px;
+    right: 230.04px;
+}
+#img-day1{
+    margin-top: 35px;
+    margin-left: -50px;
+}
+.fashion-trenning .center{
+    font-size: 14px;
+    margin-top: 598px;
+    margin-left: 100px;
+}
+#button-shopnow{
+    background-color: #1a1a1a;
+    color: white;
+    width: 132px;
+    height: 38px;
+    justify-content: center;
+    margin-top: 102px;
+    cursor: pointer;
+}
+.fashion-trenning .driver{
+    font-size: 120px;
+    font-weight: bolder;
+    top: 326px;
+    left: 430px;
+    position: absolute;
+}
+.fashion-trenning .be-driver{
+    font-size: 120px;
+    position: absolute;
+    font-style: normal;
+    font-weight: 600;
+    top: 446px;
+    left: 603px;
+    
+}
+/* end fashion-trenning*/
 
