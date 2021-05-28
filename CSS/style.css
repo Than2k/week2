@@ -1,4 +1,6 @@
-body{
+#container{
+    margin:0px  auto;
+    margin-right: auto;
     width: 1440px;
     height: 6316px;
 }
@@ -483,4 +485,48 @@ section .banner .banner2 .img7{
 }
 /* end bottom*/
 /* end fashion-trenning*/
+/* router one ob*/
+.rout-one-ob {
+    position: relative;
+    width: 1440px;
+    height: 560px;
+    background-color: #c7d1eb;
+}
+ .rout-one-ob .rout-one-ob-left{
+     margin-left: 130px;
+     margin-bottom: 100px;
+     position: absolute;
+     top: 100px;
+ }
+ .rout-one-ob .rout-one-ob-left .new-season{
+     display: flex;
+     margin-bottom: 16px;
+ }
+ #hr-season1{
+     width: 40px;
+     height: 0px;
+     border: 1px solid #1a1a1a;
+     background-color: #1a1a1a;
+     margin-top: 15px;
+    
+ }
+ .rout-one-ob .rout-one-ob-left .router-one-lastes{
+     font-size: 48px;
+     font-weight: 600;
+ }
+ #route-one{
+     margin-bottom: 8px;
+ }
+ .rout-one-ob .rout-one-ob-left .introduce-route-one{
+    margin-top: 24px;
+ }
+ 
+ #buttom-route-one-discover{
+    width: 121px;
+    height: 38px;
+    background-color: #1a1a1a;
+    color: white;
+    margin-top: 42px;
+ }
+/* end router one ob*/
 
