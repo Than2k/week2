@@ -598,7 +598,6 @@ section .banner .banner2 .img7{
 .new-releases .new-releases-top .img .img1{
     width: 280px;
     height: 382px;
-    background-color: blue;
     margin-left: 20px;
     margin-top: 80px;
     
@@ -631,5 +630,106 @@ section .banner .banner2 .img7{
 #img1-id, #img5-id{
     margin-left: 0px;
 }
+/* new-releases-bottom*/
+.new-releases .img11{
+
+   margin-top:180px;
+   height: 980px;
+   width: 1180px;
+   display: grid;
+   grid-template-columns: 580px 580px;
+   grid-template-rows: 418px 418px;
+   column-gap: 20px;
+   row-gap: 20px;
+   
+}
+.new-releases .new-releases-top .img11 .anh1{
+    width: 580px;
+    height: 418px;
+    background: #9BF0E1;
+    position: relative;
+ }
+ #a11{
+    width: 580px;
+    height: 418px;
+}
+.new-releases .new-releases-top  .new-season{
+    position: absolute;
+    top :80px;
+    left: 100px;
+    display: flex;
+    color: white;
+
+}
+.new-releases .new-releases-top  .title{
+    color: white;
+    position: absolute;
+    top:106px;
+    left: 100px;
+    font-size: 52px;
+    font-weight: 600;
+
+}
+.new-releases .new-releases-top  button{
+    width: 121px;
+    height: 38px;
+    background: white;
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    border: white;
+   cursor: pointer;
+}
+#t{
+   margin-top: 8px;
+   margin-left: 100px;
+}
+#id-hr{
+    width: 40px;
+    height: 0px;
+    margin-top: 14px;
+    margin-left: 5px;
+}
+.new-releases .new-releases-top .anh2 {
+    background: #AEEBFF;
+    width: 580px;
+    height: 418px;
+    position: relative;
+}
+.new-releases .new-releases-top .anh3 {
+    width: 580px;
+    height: 418px;
+    position: relative;
+}
+.new-releases .new-releases-top .anh3 .play{
+    position: absolute;
+    top:160px;
+    left: 239.97px;
+}
+#play{
+    font-size: 97px;
+    color: white;
+    
+}
+.new-releases .new-releases-top .anh4 {
+    width: 580px;
+    height: 418px;
+    position: relative;
+}
+.new-releases .new-releases-top .anh4 .title1{
+    font-size: 52px;
+    font-weight: 600;
+    position: absolute;
+    top: 60px;
+    left: 100px;
+}
+.new-releases .new-releases-top .anh4 .noidung{
+    position: absolute;
+    top:214px;
+    left: 100px;
+    font-size: 14px;
+}
+/* end new-releases-bottom*/
+
 /*end new releases*/
 
