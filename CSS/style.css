@@ -566,7 +566,7 @@ section .banner .banner2 .img7{
 /* new releases*/
 .new-releases{
     width: 1440px;
-    height: 2890px;
+    height: 2330px;
     background-color: rgb(252, 248, 248) ;
 }
 .new-releases .new-releases-top{
@@ -630,7 +630,6 @@ section .banner .banner2 .img7{
 #img1-id, #img5-id{
     margin-left: 0px;
 }
-/* new-releases-bottom*/
 .new-releases .img11{
 
    margin-top:180px;
@@ -729,7 +728,114 @@ section .banner .banner2 .img7{
     left: 100px;
     font-size: 14px;
 }
-/* end new-releases-bottom*/
-
 /*end new releases*/
+/* subsrcibe*/
+.subsrcibe{
+    position: relative;
+    justify-content: center;
+    display: flex;
+    width: 1440px;
+    height: 236px;
+}.subsrcibe .left{
+    margin-top: 80px;
+}
+.subsrcibe .left .top{
+    display: flex;
+}
+.subsrcibe .left .bottom{
+    font-weight: 600;
+    font-size: 40px;
+    margin-top: 8px;
+}
+.subsrcibe .right{
+    margin-top: 99px;
+    margin-left: 103px;
+}
+.subsrcibe .right input{
+    width: 480px;
+    height: 38px;
+}
+.subsrcibe .right button{
+    width: 125px;
+    height: 38px;
+    background-color: #1a1a1a;
+    color: white;
+    position: absolute;
+    left: 987px;
+}
+    /* end subsrcibe*/
+/* footer*/
+.footer{
+    position: relative;
+    width: 1440px;
+    height: 523px;
+    background-color: #1a1a1a;
+}
+.footer .footer-container{
+    margin-left: 130px;
+}
+.footer .footer-container svg{
+    margin-top: 80px;
+}
+.footer .row{
+    display: flex;
+}
+.footer .row .footer-col{
+    width: 20%;
+    margin-top: 60px;
+    color: white;
+}#ul-payment{
+    margin-top: 63px;
+}
+.footer .row .footer-col h4{
+    font-size: 16px;
+    margin-bottom: 12px;
+    font-weight: 500px;
+}
+.footer .row .footer-col hr{
+    width: 80px;
+    height: 0px;
+    margin-bottom: 24px;
+    border: 1px solid #ffffff;
+    background: #ffffff;
+}
 
+.footer .row .footer-col ul li{
+    margin-top: 12px;
+    color: white;
+}
+.footer .row .footer-col ul li a{
+    color: white;
+    text-transform: capitalize;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+.footer .row .footer-col ul li a:hover{
+    background: rgb(153, 152, 152);
+}
+.footer .row .footer-col ul li a i {
+    margin-right: 18.36px;
+    
+
+}
+.footer .social-link a{
+    margin-right: 15.89px;
+    color: white;
+    transition: 0.4s ease;
+}
+.footer .social-link a:hover{
+   color: rgb(132, 132, 241);
+}
+.footer .footer-container .bycoder p{
+    
+}
+#hr-footer-end{
+    width: 1180px;
+    height: 0px;
+    border: 0.5px solid #9a9a9a;
+    margin-bottom: 20px;
+    position: absolute;
+    background: #9a9a9a;
+    bottom: 45px;
+}
+/* end footer*/
